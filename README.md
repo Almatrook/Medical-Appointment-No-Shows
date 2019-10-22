@@ -1,106 +1,69 @@
 # Medical-Appointment-No-Shows
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Overview](#Overview)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
+* [Overview](#overview)
+* [Details](#details) 
+* [Findings](#findings)
+* [Statistical Analysis Scope](#statistical-analysis-scope)
+* [Tools](#tools)
+* [Installation](#installation)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
 
 
 <!-- Overview -->
 ## Overview
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Healthcare expenses have cost a fortune. The average hourly pay of a physician is considered high regardless of the different salary structure around the globe. The cost of that time slot remains the same whether or not a patient missed his/her medical appointment.
 
 In this project, the data associated with scheduled patient appointments will be analyzed. In particular, the findings from trends among the patients who no show and the others who attended a doctor appointment. This project aims to understand the possibility of predicting patients who fail to appear in a medical's appointment.
 
-The original problem description and data set can be found here: https://www.kaggle.com/joniarroba/noshowappointments/home
 This project was completed as part of Udacity's Data Analyst Nanodegree certification.
 
-
-### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+<!-- Detail -->
+## Details
+The dataset has been looked up and managed a few problems like unifying names and type conversion. In the investigation stage,  selecting the most of independent variables in the dataset and comparing them to the dependent one (no_show). As this was only an exploratory analysis stage, there are many potential correlations may remain uncovered. The dataset needs to be investigated further with more statistical analysis to potentially reveal new insights and correlations.
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Findings
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. Tuesday and Wednesday are most weekdays for patients to show up in doctor's appointment even though there are no significant difference with other days. As result of the number of approved appointment, there are 30 visits on Saturday and none on Sunday.
+2. Female has the highest percentage of missing their medical appointment with almost twice than male.
+3. Despite receiving an SMS notification has increased patients obligation on their appointment by triple time than patients who Ignored notification, there are more than half of people who visited the doctor without receiving SMS. The most dominant percentage of them was female.
+4. The most classification of patients age who shows up are young adults(18 - 40) by women higher than men.
+5. For all studied independent variables, the distributions of patients attendance look similar. However, patient gender is more prominent than others.
 
-### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
 
-### Installation
+<!-- Statistical Analysis Scope -->
+## Statistical Analysis Scope
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Data Wrangling
+2. Exploratory Data Analysis 
+3. Data visualizations 
+
+
+<!-- Tools -->
+## Tools
+
+Python libraries : numpy, pandas, matplotlib, seaborn
+
+
+
+<!-- Installation -->
+## Installation
+
+1. Clone the repo
 ```sh
 git clone https://github.com/Almatrook/Medical-Appointment-No-Shows.git
 ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
@@ -109,9 +72,9 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch 
+3. Commit your Changes 
+4. Push to the Branch 
 5. Open a Pull Request
 
 
@@ -119,13 +82,14 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under GNU General Public License v3.0. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - abdulbaset.almtrook@gmail.com
+Abdulbasit Almatrook - abdulbaset.almtrook@gmail.com
+                     - https://sa.linkedin.com/in/abdulbasit-almatrook-b2689672
 
 Project Link: [https://github.com/Almatrook/Medical-Appointment-No-Shows](https://github.com/Almatrook/Medical-Appointment-No-Shows)
